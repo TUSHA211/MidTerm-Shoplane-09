@@ -1,0 +1,52 @@
+.all_cards{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: left;
+align-items: left; 
+
+/* border:1px solid black; */
+
+
+ 
+}
+.all_card_img{
+    outline-style: ridge;
+    justify-content: space-between;
+    border-spacing: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.product-card{
+    border: 0.1px solid black;
+    margin: 10px;
+}
+
+
+
+.all_card_img{
+    outline-style: ridge;
+    justify-content: space-around;
+    border-spacing: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+ 
+}
+.submit{
+    background-color: blue;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size:15px;
+ 
+}
+/* .all_card{
+    margin: 1%;
+} */
+/* .heart_img{
+    flex-direction: flex-start;
+} */
